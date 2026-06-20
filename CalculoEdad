@@ -1,0 +1,10 @@
+// Explicación: Restamos el año de nacimiento al año actual 
+// para obtener la edad aproximada de la persona.
+
+const anioActual = 2026;
+const anioNacimiento = 2000;
+const edadCalculada = anioActual - anioNacimiento;
+
+console.log("Año actual: " + anioActual);
+console.log("Nacimiento: " + anioNacimiento);
+console.log("Edad: " + edadCalculada + " años");
