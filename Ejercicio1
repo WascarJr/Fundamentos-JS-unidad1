@@ -9,4 +9,4 @@ const ciudad = "Santo Domingo";
 console.log("Nombre: " + nombre);
 console.log("Apellido: " + apellido);
 console.log("Edad: " + edad);
-console.log("Ciudad: " + city);
+console.log("Ciudad: " + ciudad);
