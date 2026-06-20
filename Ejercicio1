@@ -1,0 +1,12 @@
+// Explicación: Declaramos variables para almacenar los datos personales.
+// Luego, utilizamos console.log combinando texto estático con el valor de las variables.
+
+const nombre = "Wascar Junior";
+const apellido = "Cuevas Encarnación";
+const edad = 30; // Puedes ajustar a tu edad real
+const ciudad = "Santo Domingo";
+
+console.log("Nombre: " + nombre);
+console.log("Apellido: " + apellido);
+console.log("Edad: " + edad);
+console.log("Ciudad: " + city);
