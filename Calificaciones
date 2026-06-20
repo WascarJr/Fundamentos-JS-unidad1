@@ -1,0 +1,22 @@
+// Explicación: Evaluamos una nota numérica mediante una estructura de control 
+// if / else if anidada para asignarle una letra según los rangos establecidos.
+
+const nota = 85;
+let letraCalificacion = "";
+
+if (nota >= 90 && nota <= 100) {
+    letraCalificacion = "A";
+} else if (nota >= 80 && nota < 90) {
+    letraCalificacion = "B";
+} else if (nota >= 70 && nota < 80) {
+    letraCalificacion = "C";
+} else if (nota >= 60 && nota < 70) {
+    letraCalificacion = "D";
+} else if (nota >= 0 && nota < 60) {
+    letraCalificacion = "F";
+} else {
+    letraCalificacion = "Nota no válida";
+}
+
+console.log("Nota: " + nota);
+console.log("Resultado: " + letraCalificacion);
