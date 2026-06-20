@@ -1,0 +1,14 @@
+// Explicación: Definimos dos variables numéricas y aplicamos los 
+// operadores aritméticos básicos (+, -, *, /, %).
+
+const num1 = 10;
+const num2 = 5;
+
+console.log("Número 1: " + num1);
+console.log("Número 2: " + num2);
+console.log("---");
+console.log("Suma: " + (num1 + num2));
+console.log("Resta: " + (num1 - num2));
+console.log("Multiplicación: " + (num1 * num2));
+console.log("División: " + (num1 / num2));
+console.log("Módulo: " + (num1 % num2));
