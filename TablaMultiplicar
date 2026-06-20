@@ -1,0 +1,8 @@
+// Explicación: Utilizamos un ciclo 'for' que arranca en 1 y termina en 10. 
+// En cada iteración, multiplica el número base (5) por el índice del ciclo.
+
+const numeroBase = 5;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(numeroBase + " x " + i + " = " + (numeroBase * i));
+}
