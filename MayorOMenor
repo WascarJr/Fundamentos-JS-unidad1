@@ -1,0 +1,10 @@
+// Explicación: Mediante una estructura condicional (if/else), evaluamos si 
+// la edad es mayor o igual a 18 para determinar la condición legal.
+
+const edadPersona = 17; // Modifica este valor para probar ambos escenarios
+
+if (edadPersona >= 18) {
+    console.log("Mayor de edad");
+} else {
+    console.log("Menor de edad");
+}
