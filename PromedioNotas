@@ -1,0 +1,27 @@
+// Explicación: Almacenamos 5 notas en un arreglo (Array). Iteramos sobre él para sumar 
+// todas las notas, calculamos el promedio y determinamos si aprueba (70 o más).
+
+const notas = [80, 90, 75, 95, 85];
+let sumaTotal = 0;
+
+// Mostrar todas las notas y sumarlas
+console.log("Notas:");
+for (let i = 0; i < notas.length; i++) {
+    console.log(notas[i]);
+    sumaTotal += notas[i];
+}
+
+// Calcular promedio
+const promedio = sumaTotal / notas.length;
+
+// Determinar estado final (Asumiendo 70 como nota mínima de aprobación)
+let estado = "";
+if (promedio >= 70) {
+    estado = "APROBADO";
+} else {
+    estado = "REPROBADO";
+}
+
+console.log("---");
+console.log("Promedio: " + promedio);
+console.log("Estado: " + estado);
