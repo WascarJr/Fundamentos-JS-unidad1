@@ -1,0 +1,8 @@
+// Explicación: Creamos una variable para los grados Celsius y aplicamos
+// la fórmula matemática (C * 9/5) + 32 para convertirla a Fahrenheit.
+
+const celsius = 30;
+const fahrenheit = (celsius * 9 / 5) + 32;
+
+console.log("Celsius: " + celsius);
+console.log("Resultado: " + fahrenheit + "°F");
