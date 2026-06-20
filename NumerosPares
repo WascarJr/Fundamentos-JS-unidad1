@@ -1,0 +1,8 @@
+// Explicación: Usamos un ciclo 'for' que recorre los números del 1 al 100.
+// Con el operador de módulo (%), verificamos si el residuo de dividir entre 2 es cero (par).
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
